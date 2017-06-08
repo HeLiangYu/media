@@ -1,0 +1,37 @@
+.m{ 
+	width: 960px; 
+	height: 600px; 
+	margin-left: auto; 
+	margin-right: auto;
+	 margin-top: 0px;
+	 border: 1px solid #000000;
+}
+
+.content{
+	padding-bottom: 40px;
+	width: 100%;
+	background: rgb(241, 242, 243);
+	display: inline-block;
+}
+.title{
+	height: 70px;
+	line-height: 70px;
+	margin-top: 20px;
+	text-align: left;
+}
+.title p{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	padding-left: 10px;
+}
+.lable{
+	color: #3399E0;
+}
+a{
+	text-decoration: none;
+}
+.vd{
+	background: #FFF;
+	margin-top: 10px;
+}

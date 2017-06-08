@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>KU video</title>
+		
+		<link rel="shortcut icon"  href="images/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/YuxiSlider.jQuery.min.js"></script>
+		<script src="js/mask.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$(".slider").YuxiSlider({
+					width:960, //容器宽度
+					height:500, //容器高度
+					control:$('.control'), //绑定控制按钮
+					during:4000, //间隔4秒自动滑动
+					speed:800, //移动速度0.8秒
+					mousewheel:true, //是否开启鼠标滚轮控制
+					direkey:true //是否开启左右箭头方向控制
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+			<div class="header">
+				<div class="w">
+					<div class="logo"><img src="images/logo.gif"/></div>
+					<div class="login">
+						<a href="">登录</a>
+						<a href="">注册</a>
+					</div>
+					<div class="search">
+						<input type="text" placeholder=" 请输入需要查询的内容"  class="text"/>
+						<input type="text"  value="搜 索" onfocus="this.blur();" class="find" />
+					</div>
+					<ul class="nav">
+						<li><a href="" class="active">首页</a></li>
+						<li><a href="">电视剧</a></li>
+						<li><a href="">电影</a></li>
+						<li><a href="">综艺</a></li>
+						<li><a href="">动漫</a></li>
+						<li><a href="">资讯</a></li>
+						<li><a href="">时尚</a></li>
+						<li><a href="">拍客</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="content">
+				<div class="w">
+					<center>
+						<div class="demo">
+							<a class="control prev"></a><a class="control next abs"></a><!--自定义按钮，移动端可不写-->
+							<div class="slider"><!--主体结构，请用此类名调用插件，此类名可自定义-->
+								<ul>
+									<li><a href="video.html"><img src="images/test/p2.jpg"/></a></li>
+									<li><a href="video.html"><img src="images/test/p3.jpg"/></a></li>
+									<li><a href="video.html"><img src="images/test/p4.jpg"/></a></li>
+									<li><a href="video.html"><img src="images/test/p5.jpg"/></a></li>
+									<li><a href="video.html"><img src="images/test/banner-5.jpg"/></a></li>
+								</ul>
+							</div>
+						</div>
+					</center>
+					
+					<div class="video">
+							<div class="t">
+							<div class="box box1">
+								<a href="video.html">
+									<img src="images/test/banner-1.jpg"/>
+									<div class="mask1"></div>
+								</a>
+							</div>
+							<div class="box box2">
+								<a href="video.html">
+									<img src="images/test/v-3.jpg"/>
+									<div class="mask2"></div>
+								</a>
+							</div>
+							<div class="box box3 right">
+								<a href="video.html">
+									<img src="images/test/v-4.jpg"/>
+									<div class="mask3"></div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="t">
+							<div class="box box4">
+								<a href="video.html">
+									<img src="images/test/v-5.jpg"/>
+									<div class="mask4"></div>
+								</a>
+							</div>
+							<div class="box box5">
+								<a href="video.html">
+									<img src="images/test/v-2.jpg"/>
+									<div class="mask5"></div>
+								</a>
+							</div>
+							<div class="box box6 right">
+								<a href="video.html">
+									<img src="images/test/v-6.jpg"/>
+									<div class="mask6"></div>
+								</a>
+							</div>
+						</div>
+						
+						<div class="t">
+							<div class="box box7">
+								<a href="video.html">
+									<img src="images/test/v-7.jpg"/>
+									<div class="mask7"></div>
+								</a>
+							</div>
+							<div class="box box8">
+								<a href="video.html">
+									<img src="images/test/v-8.jpg"/>
+									<div class="mask8"></div>
+								</a>
+							</div>
+							<div class="box box9 right">
+								<a href="video.html">
+									<img src="images/test/v-9.jpg"/>
+									<div class="mask9"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="w"><p>Copyright©2016-2018 KU video <img src="images/plice.png">浙ICP备16026659号</p></div>
+			</div>
+	</body>
+</html>

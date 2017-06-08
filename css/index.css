@@ -1,0 +1,45 @@
+
+.content{
+	margin-top: 10px;
+	width: 100%;
+	background: rgb(241, 242, 243);
+	display: inline-block;
+	padding-bottom: 20px;
+}
+.content .video {
+	background: #FFFFFF;
+	display: inline-block;
+	margin-top: 60px;
+}
+.content .video .box{
+	width: 306px;
+	height: 200px;
+	margin-right: 20px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+	z-index: 1;
+	position: relative;
+}
+
+.content .video .right{
+	float: right;
+	margin-right: 0;
+}
+.content .video .box img{
+	width: 300px;
+	height: 200px;
+}
+.mask{
+	width: 306px;
+	height: 200px;
+	background:url(../images/play.png) no-repeat center;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bg{
+	background: url(../images/play.png);
+}
+
